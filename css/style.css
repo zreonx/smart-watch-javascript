@@ -1,0 +1,92 @@
+.watch {
+    width: 380px;
+}
+ 
+.header {
+    height: 60px;
+    background-color: #232f3e;
+    padding: 12px;
+}
+
+.logo {
+    height: 30px;
+    display: block;
+    margin: 5px auto;
+}
+
+.main {
+    display: flex;
+    padding: 4% 10%;
+}
+
+.watch-description {
+    margin-left: -50px;
+    position: relative;
+    z-index: 999;
+}
+.watch-description h1, .watch-description p {
+    letter-spacing: 1.2px;
+}
+
+.watch-description h1, .watch-description h3 {
+    margin: 1.2rem 0 ;
+}
+
+.watch-description p {
+    color: rgb(73, 68, 68);
+}
+
+.color{
+    display: flex;
+    gap: 12px;
+}
+
+.color > li {
+    height: 50px;
+    width: 50px;
+    background-color: #232f3e;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.color #black {
+    background-color: #23211f;
+}
+.color #blue {
+    background-color: #565681;
+}
+.color #red {
+    background-color: #ca3d22;
+}
+.color #purple {
+    background-color: #8a5362;
+}
+.color #pink {
+    background-color: #e9c7be;
+}
+
+
+
+.watch-wrapper {
+    position: relative;
+}
+
+@keyframes beat {
+    to { transform: scale(1.2); }
+}
+
+
+@media only screen and (max-width: 740px) {
+    .main {
+        flex-direction: column;
+        padding: 1rem 1.2rem;
+        justify-content: center;
+    }
+    .watch-description {
+        margin: 0;
+    }
+
+    .watch-description h1, .watch-description h3 {
+        margin: .8rem 0 ;
+    }
+}
