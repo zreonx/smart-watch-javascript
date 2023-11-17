@@ -57,7 +57,7 @@ button:hover, li:hover {
     top: 160px;
     left: 162px;
     height: 50px;
-    animation: beat .8s infinite alternate;
+    animation: beat .3s infinite alternate;
     transform-origin: center;
     visibility: hidden;
 }
